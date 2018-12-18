@@ -16,7 +16,7 @@ enum APIError: Error {
     case responseUnsuccessful(description: String)
     case jsonParsingFailure
     
-    var localizedDescription: String {
+    var customDescription: String {
         switch self {
         case .requestFailed(let desc): return "Request Failed error -> \(desc)"
         case .invalidData: return "Invalid Data error)"
