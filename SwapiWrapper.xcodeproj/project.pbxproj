@@ -16,6 +16,12 @@
 		09B130DC21C9580500FA4B6C /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B130DB21C9580500FA4B6C /* APIError.swift */; };
 		09B130DE21C9581000FA4B6C /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B130DD21C9581000FA4B6C /* Result.swift */; };
 		09B130E021C9583A00FA4B6C /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B130DF21C9583A00FA4B6C /* Endpoint.swift */; };
+		09B130E221C9595600FA4B6C /* People.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B130E121C9595600FA4B6C /* People.swift */; };
+		09B130E421C9596F00FA4B6C /* Film.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B130E321C9596F00FA4B6C /* Film.swift */; };
+		09B130E621C9598200FA4B6C /* Starship.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B130E521C9598200FA4B6C /* Starship.swift */; };
+		09B130E821C9599900FA4B6C /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B130E721C9599900FA4B6C /* Vehicle.swift */; };
+		09B130EA21C959B700FA4B6C /* Species.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B130E921C959B700FA4B6C /* Species.swift */; };
+		09B130EC21C959C500FA4B6C /* Planet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B130EB21C959C500FA4B6C /* Planet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +36,12 @@
 		09B130DB21C9580500FA4B6C /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
 		09B130DD21C9581000FA4B6C /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 		09B130DF21C9583A00FA4B6C /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		09B130E121C9595600FA4B6C /* People.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = People.swift; sourceTree = "<group>"; };
+		09B130E321C9596F00FA4B6C /* Film.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Film.swift; sourceTree = "<group>"; };
+		09B130E521C9598200FA4B6C /* Starship.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Starship.swift; sourceTree = "<group>"; };
+		09B130E721C9599900FA4B6C /* Vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
+		09B130E921C959B700FA4B6C /* Species.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Species.swift; sourceTree = "<group>"; };
+		09B130EB21C959C500FA4B6C /* Planet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Planet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +100,12 @@
 		09B130D721C9530300FA4B6C /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				09B130E121C9595600FA4B6C /* People.swift */,
+				09B130E321C9596F00FA4B6C /* Film.swift */,
+				09B130E521C9598200FA4B6C /* Starship.swift */,
+				09B130E721C9599900FA4B6C /* Vehicle.swift */,
+				09B130E921C959B700FA4B6C /* Species.swift */,
+				09B130EB21C959C500FA4B6C /* Planet.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -171,12 +189,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09B130E621C9598200FA4B6C /* Starship.swift in Sources */,
 				09B130C721C952D800FA4B6C /* ViewController.swift in Sources */,
 				09B130DE21C9581000FA4B6C /* Result.swift in Sources */,
+				09B130EC21C959C500FA4B6C /* Planet.swift in Sources */,
 				09B130DC21C9580500FA4B6C /* APIError.swift in Sources */,
 				09B130C521C952D800FA4B6C /* AppDelegate.swift in Sources */,
 				09B130E021C9583A00FA4B6C /* Endpoint.swift in Sources */,
+				09B130E421C9596F00FA4B6C /* Film.swift in Sources */,
 				09B130DA21C957E000FA4B6C /* GenericAPI.swift in Sources */,
+				09B130EA21C959B700FA4B6C /* Species.swift in Sources */,
+				09B130E821C9599900FA4B6C /* Vehicle.swift in Sources */,
+				09B130E221C9595600FA4B6C /* People.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

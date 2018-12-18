@@ -8,7 +8,7 @@
 
 import Foundation
 
-public enum APIError: Error {
+enum APIError: Error {
     
     case requestFailed(description: String)
     case jsonConversionFailure(description: String)
