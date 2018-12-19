@@ -20,7 +20,7 @@ public struct Resources<T: Decodable>: Resource {
 
 protocol Resource: Decodable {
     
-    associatedtype T = Decodable
+    associatedtype T 
     var count: Int? { get }
     var next: String? { get }
     var previous: String? { get }
